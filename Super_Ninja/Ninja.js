@@ -45,3 +45,6 @@ class Sensei extends Ninja{
 const superSensei = new Sensei("Master Splinter");
 superSensei.speakWisdom();
 superSensei.showStats();
+
+
+
