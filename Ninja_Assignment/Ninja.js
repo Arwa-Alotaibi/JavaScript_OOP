@@ -43,7 +43,7 @@ const ninja1 = new Ninja("Hyabusa");
         ninja2.showStats();
 
 
-// instance 23
+// instance 3
 console.log('--ninja3--')
 const ninja3 = new Ninja("ninja3",11);
     ninja3.sayName();
