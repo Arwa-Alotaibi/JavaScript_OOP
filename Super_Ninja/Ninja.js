@@ -5,12 +5,12 @@ class Ninja{
 
         this.health= health ; 
 
-       // this.speed = 3;
-       this.speed = speed
+        this.speed = 3;
+      // this.speed = speed
 
-       // this.strength = 3;
+        this.strength = 3;
 
-        this.strength = strength ;
+       // this.strength = strength ;
 
     }
     
@@ -32,9 +32,12 @@ class Ninja{
 }
 class Sensei extends Ninja{
     //constructor
-    constructor(name,wisdom){
-     super(name,200,10 ,10);
+    constructor(name,health,speed ,strength,wisdom){
+     super(name,health,speed ,strength);
      this.wisdom =10 ;
+     this.health = 200;
+     this.speed = 10 
+     this.strength = 10 ;
     }
     speakWisdom(){
      super.drinkSake();
