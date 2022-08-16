@@ -75,3 +75,5 @@ console.log(RedBeltNinja)
 RedBeltNinja.attack(BlackBeltNinja)
 
 console.log(BlackBeltNinja)
+
+console.log(RedBeltNinja)
