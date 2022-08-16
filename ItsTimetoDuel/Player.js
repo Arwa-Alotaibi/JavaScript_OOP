@@ -68,12 +68,15 @@ console.log(RedBeltNinja)
 
 //Make an instance of "Pair Programming" and play it on "Red Belt Ninja"
 PairProgramming.play(RedBeltNinja)
-console.log(RedBeltNinja)
+//console.log(RedBeltNinja)
+
+console.log(PairProgramming)
+
 
 
 //"Red Belt Ninja" uses the attack method on "Black Belt Ninja"
 RedBeltNinja.attack(BlackBeltNinja)
 
-console.log(BlackBeltNinja)
+//console.log(BlackBeltNinja)
 
 console.log(RedBeltNinja)
