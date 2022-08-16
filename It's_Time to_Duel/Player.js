@@ -14,7 +14,7 @@ class Unit extends Card{
 
         this.resilience = resilience ;
     }
-    attack(){
+    attack(target){
         this.resilience-=this.power
     }
 
@@ -68,8 +68,9 @@ console.log(RedBeltNinja)
 
 //Make an instance of "Pair Programming" and play it on "Red Belt Ninja"
 PairProgramming.play(RedBeltNinja)
-
 console.log(RedBeltNinja)
+
+
 //"Red Belt Ninja" uses the attack method on "Black Belt Ninja"
 RedBeltNinja.attack(BlackBeltNinja)
 
